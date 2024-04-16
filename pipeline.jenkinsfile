@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Running collection') {
+            steps {
+                // Executa o script do Newman
+                sh 'newman --version'
+                sh 'newman run "Simple Grocery Store API.postman_collection.json" --environment "Production.postman_environment.json" --reporters cli,htmlextra,junit --reporter-htmlextra-export newman/report.html --reporter-junit-export newman/report.xml'
+            }
+        }
+    }
+
+    post {
+        always {
+            // Publicar relatórios HTML gerados pelo Newman
+            publishHTML target: [
+                reportName: 'Newman',
+                reportDir: 'newman',
+                reportFiles: 'report.html',
+                reportTitles: 'Postman API tests',
+                keepAll: true,
+                alwaysLinkToLastBuild: true,
+                allowMissing: false
+            ]
+            
+            // Publicar resultados dos testes JUnit gerados pelo Newman
+            junit 'newman/report.xml'
+        }
+    }
+}
