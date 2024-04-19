@@ -70,11 +70,11 @@ O arquivo HTML com o resultado dos testes é gerado usando o Newman e o Htmlextr
 
 Isso permitirá o acesso e analise dos resultados dos testes executados durante a pipeline diretamente do Jenkins.
 
-## Resultados dos Testes Automatizados
+## Os testes automatizados
 
 Os testes automatizados realizados nesta API abrangem operações CRUD (Create, Read, Update, Delete), verificam códigos de status das respostas, garantem autenticação correta, validam entradas e detectam erros. Esses testes são essenciais para assegurar o funcionamento adequado da API em diferentes cenários e manter a integridade e segurança das operações realizadas.
 
-### Resumo dos Testes
+### Resumo dos testes
 
 - **Operações CRUD**: Foram testadas todas as operações CRUD para garantir que os endpoints correspondentes estejam funcionando corretamente.
 - **Verificação de Códigos de Status**: Os testes incluem verificações dos códigos de status das respostas para garantir que estejam de acordo com as expectativas.
