@@ -13,7 +13,7 @@ Este projeto de teste automatizado utiliza o Postman para testar uma API existen
 ### Documentações
 - [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
 
-### Configurando o ambiente do Jenkins para executar a pipeline de testes automatizados do repositório do GitHub
+### Configurando o ambiente de teste
 
 ### Pré-requisitos
 
