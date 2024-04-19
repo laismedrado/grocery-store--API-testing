@@ -1,7 +1,7 @@
-# grocery-store-API-testing
+## grocery-store-API-testing
 Este projeto de teste automatizado utiliza o Postman para testar uma API existente. A integração do Newman com o pipeline do Jenkins facilita a execução automatizada dos testes e desempenha um papel fundamental ao fornecer relatórios detalhados dos resultados, tornando o processo de análise mais eficiente. Além disso, qualquer modificação feita neste repositório aciona automaticamente a pipeline no Jenkins, garantindo que os testes sejam executados de forma contínua e automatizada, contribuindo para a manutenção da qualidade do software.
 
-## Tecnologias utilizadas
+### Tecnologias utilizadas
 - Postman 
 - node version v18.16.1
 - newman v5.3.2
@@ -10,16 +10,16 @@ Este projeto de teste automatizado utiliza o Postman para testar uma API existen
 - Docker
 - Ngrok
   
-## Documentações
+### Documentações
 - [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
 
-## Configurando o ambiente do Jenkins para executar a pipeline de testes automatizados do repositório do GitHub
+### Configurando o ambiente do Jenkins para executar a pipeline de testes automatizados do repositório do GitHub
 
-## Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter o Docker instalado e em execução em sua máquina. Você pode baixar e instalar o Docker a partir do [site oficial do Docker](https://www.docker.com/get-started).
 
-## Passos testestetstes
+###  Passos 
 
 1. Clone este repositório em sua máquina local:
 
@@ -68,7 +68,7 @@ O arquivo HTML com o resultado dos testes é gerado usando o Newman e o Htmlextr
 
 Isso permitirá o acesso e analise dos resultados dos testes executados durante a pipeline diretamente do Jenkins.
 
-## Os testes automatizados
+### Os testes automatizados
 
 Os testes automatizados realizados nesta API abrangem operações CRUD (Create, Read, Update, Delete), verificam códigos de status das respostas, garantem autenticação correta, validam entradas e detectam erros. Esses testes são essenciais para assegurar o funcionamento adequado da API em diferentes cenários e manter a integridade e segurança das operações realizadas.
 
