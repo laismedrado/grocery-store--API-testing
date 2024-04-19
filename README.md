@@ -84,20 +84,19 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 
 ### Resultados
 
-Os resultados dos testes automatizados demonstraram que a API responde conforme o esperado, mantendo a integridade e segurança das operações realizadas. A cobertura abrangente dos testes garante a confiabilidade e robustez da API em diferentes cenários de uso.
+Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros críticos que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
 erro 01 :
 
 ![image](https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/8bf1a12b-f2f0-493e-80b7-5c5a9deb3bf5)
 
-O parâmetro passado é o 0, o que de acordo com a documentação não é aceito; e ao em vez de retornar um código de status 400 (Bad Request) como esperado, foi  retornado o status 200 (OK);
+Ao enviar o parâmetro "result" com o valor 0 no endpoint "Get all products", contrariando as especificações da API, a resposta esperada era um código de status 400 (Bad Request). No entanto, a API retornou um status 200 (OK), indicando uma falha na validação dos parâmetros de entrada.
 
  erro 02
 
  ![image](https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/01b41544-2f28-49e4-a496-78e6c1f9cd06)
 
-Este teste está comparando o retorno esperado com o recebido de acordo com oque tem descrito na documentação; e percebe-se que
-não é a mensagem de retorno correta logo , esse teste també está falhando;
+Além disso, a mensagem de erro recebida não correspondeu àquela esperada de acordo com a documentação. Esta diferença sugere uma possível inconsistência entre a implementação real e a especificação da API, o que pode comprometer a experiência do usuário e a integridade dos dados.
 
 
 
