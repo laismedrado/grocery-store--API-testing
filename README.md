@@ -95,7 +95,7 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 
 ### Resultados
 
-Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
+Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade nas operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
 - **erro 01** 
 
