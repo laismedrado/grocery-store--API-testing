@@ -2,10 +2,15 @@
 
 ---
 
-   Este projeto de teste automatizado utiliza o Postman para testar uma API existente. A integração do Newman com o pipeline do Jenkins facilita a execução automatizada   
+   Este projeto de teste automatizado utiliza o Postman para testar uma API existente. A integração do Newman com o pipeline do Jenkins facilita a execução automatizada  
    dos testes e desempenha um papel fundamental ao fornecer relatórios detalhados dos resultados, tornando o processo de análise mais eficiente. Além disso, qualquer 
    modificação feita neste repositório aciona automaticamente a pipeline no Jenkins, garantindo que os testes sejam executados de forma contínua e automatizada, 
    contribuindo para a manutenção da qualidade do software.
+
+
+https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/97403c74-0389-4491-8226-12d2481ee8f8
+
+
 
   ## Tecnologias utilizadas
   
@@ -99,30 +104,21 @@ Os testes automatizados confirmaram a conformidade da API com as expectativas, a
 
 - **erro 01** 
 
-<div style="display: flex; justify-content: space-between;">
-      <img src="https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/8bf1a12b-f2f0-493e-80b7-5c5a9deb3bf5" style="width:80%;" alt="Imagem 2">
-</div>
+![image newman 1](https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/96c08c22-dd2e-4b67-b5c5-857ddeac6210)
 
----
 Ao enviar o parâmetro "result" com o valor 0 no endpoint "Get all products", contrariando as especificações da API, a resposta esperada era um código de status 400 (Bad Request). No entanto, a API retornou um status 200 (OK), indicando uma falha na validação dos parâmetros de entrada.
 
 - **erro 02**
 
-<div style="display: flex; justify-content: space-between;">
-<img src="https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/01b41544-2f28-49e4-a496-78e6c1f9cd06" style="width: 80%;" alt="Imagem 1">
-</div>
+![image](https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/dfa54de7-3156-432a-90b3-20cd837aea93)
 
----
 Além disso, a mensagem de erro recebida não correspondeu àquela esperada de acordo com a documentação. Esta diferença sugere uma possível inconsistência entre a implementação real e a especificação da API, o que pode comprometer a experiência do usuário e a integridade dos dados.
-
-
 
 
 
 # Contato:
 
 Se você tiver alguma dúvida, sugestão ou encontrar algum problema nos testes ou na documentação, sinta-se à vontade para entrar em contato.
-
 email: laismedrado@live.com
 redes socias: [Linkedin](https://www.linkedin.com/in/lais-medrado/)
 
