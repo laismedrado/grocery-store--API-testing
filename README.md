@@ -97,20 +97,22 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 
 Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
-    - erro 01 
+- **erro 01** 
 
 <div style="display: flex; justify-content: space-between;">
       <img src="https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/8bf1a12b-f2f0-493e-80b7-5c5a9deb3bf5" style="width:80%;" alt="Imagem 2">
 </div>
 
+---
 Ao enviar o parâmetro "result" com o valor 0 no endpoint "Get all products", contrariando as especificações da API, a resposta esperada era um código de status 400 (Bad Request). No entanto, a API retornou um status 200 (OK), indicando uma falha na validação dos parâmetros de entrada.
 
-    - erro 02
+- **erro 02**
 
 <div style="display: flex; justify-content: space-between;">
 <img src="https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/01b41544-2f28-49e4-a496-78e6c1f9cd06" style="width: 80%;" alt="Imagem 1">
 </div>
 
+---
 Além disso, a mensagem de erro recebida não correspondeu àquela esperada de acordo com a documentação. Esta diferença sugere uma possível inconsistência entre a implementação real e a especificação da API, o que pode comprometer a experiência do usuário e a integridade dos dados.
 
 
