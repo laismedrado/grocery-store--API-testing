@@ -1,5 +1,7 @@
 ### grocery-store-API-testing
 
+---
+
    Este projeto de teste automatizado utiliza o Postman para testar uma API existente. A integração do Newman com o pipeline do Jenkins facilita a execução automatizada   
    dos testes e desempenha um papel fundamental ao fornecer relatórios detalhados dos resultados, tornando o processo de análise mais eficiente. Além disso, qualquer 
    modificação feita neste repositório aciona automaticamente a pipeline no Jenkins, garantindo que os testes sejam executados de forma contínua e automatizada, 
