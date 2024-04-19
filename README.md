@@ -120,7 +120,10 @@ Além disso, a mensagem de erro recebida não correspondeu àquela esperada de a
 
 
 ## Entre em contato
-email: laismedrado@live.com
-redes socias: https://www.linkedin.com/in/lais-medrado/
 
+
+Se você tiver alguma dúvida, sugestão ou encontrar algum problema nos testes ou na documentação, sinta-se à vontade para entrar em contato.
+
+email: laismedrado@live.com
+redes socias: [Linkedin](https://www.linkedin.com/in/lais-medrado/)
 
