@@ -17,7 +17,7 @@
 
   ## Documentação
 
-    - [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
+   [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
 
   ## Configurando o ambiente de teste
 
