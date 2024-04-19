@@ -7,11 +7,6 @@
    modificação feita neste repositório aciona automaticamente a pipeline no Jenkins, garantindo que os testes sejam executados de forma contínua e automatizada, 
    contribuindo para a manutenção da qualidade do software.
 
-
-https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/97403c74-0389-4491-8226-12d2481ee8f8
-
-
-
   ## Tecnologias utilizadas
   
     - Postman 
@@ -24,9 +19,16 @@ https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/97403c7
 
   ## Documentação:
 
-   [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
+   [simple-grocery-store-api](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
 
-  ## Configurando o ambiente de teste
+
+## Processo de automação em ação:
+https://github.com/laismedrado/grocery-store-API-testing/assets/31759644/97403c74-0389-4491-8226-12d2481ee8f8
+
+
+
+
+## Configurando o ambiente de teste:
 
 ### Pré-requisitos:
 
@@ -74,7 +76,7 @@ Siga as instruções na página inicial do Jenkins para concluir a instalação 
 - Configure o webhook com a URL fornecida pelo Ngrok para permitir acesso externo a outros serviços.
 ```
 
-### Report
+## Report
 
 O arquivo HTML com o resultado dos testes é gerado usando o Newman e o Htmlextra. Para acessar este relatório na página da pipeline do projeto, siga estas etapas:
 ```bash
@@ -86,11 +88,11 @@ O arquivo HTML com o resultado dos testes é gerado usando o Newman e o Htmlextr
 ```
 :bulb: Isso permitirá o acesso e analise dos resultados dos testes executados durante a pipeline diretamente do Jenkins.
 
-### Os testes automatizados
+## Os testes automatizados
 
 Os testes automatizados realizados nesta API abrangem operações CRUD (Create, Read, Update, Delete), verificam códigos de status das respostas, garantem autenticação correta, validam entradas e detectam erros. Esses testes são essenciais para assegurar o funcionamento adequado da API em diferentes cenários e manter a integridade e segurança das operações realizadas.
 
-### Resumo dos testes
+## Resumo dos testes
 
 - **Operações CRUD**: Foram testadas as operações CRUD para garantir que os endpoints correspondentes estejam funcionando corretamente.
 - **Verificação de códigos de status**: Os testes incluem verificações dos códigos de status das respostas para garantir que estejam de acordo com as expectativas da documentação .
@@ -98,7 +100,7 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 - **Validação de entradas**: As entradas fornecidas aos endpoints da API são validadas para garantir que estejam corretas e consistentes.
 - **Detecção de erros**: Testes específicos foram desenvolvidos para detectar e lidar com possíveis erros que possam ocorrer durante as interações com a API.
 
-### Resultados
+## Resultados
 
 Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade nas operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
