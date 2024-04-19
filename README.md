@@ -17,17 +17,17 @@
     - Docker
     - Ngrok
 
-  ## Documentação
+  ## Documentação:
 
    [Consulte Documentação](https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md)
 
   ## Configurando o ambiente de teste
 
-### Pré-requisitos
+### Pré-requisitos:
 
-    Certifique-se de ter o Docker instalado e em execução em sua máquina. Você pode baixar e instalar o Docker a partir do [site oficial do Docker](https://www.docker.com/get-started).
+Certifique-se de ter o Docker instalado e em execução em sua máquina. Você pode baixar e instalar o Docker a partir do [site oficial do Docker](https://www.docker.com/get-started).
 
-### Passos
+### Passos:
 
 1. Clone este repositório em sua máquina local:
 
@@ -97,7 +97,7 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 
 Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
-    - erro 01 :
+    - erro 01 
 
 <div style="display: flex; justify-content: space-between;">
       <img src="https://github.com/laismedrado/simple-grocery-store-api/assets/31759644/8bf1a12b-f2f0-493e-80b7-5c5a9deb3bf5" style="width:80%;" alt="Imagem 2">
