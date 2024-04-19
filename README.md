@@ -85,15 +85,15 @@ Os testes automatizados realizados nesta API abrangem operações CRUD (Create, 
 
 ### Resumo dos testes
 
-- **Operações CRUD**: Foram testadas todas as operações CRUD para garantir que os endpoints correspondentes estejam funcionando corretamente.
-- **Verificação de Códigos de Status**: Os testes incluem verificações dos códigos de status das respostas para garantir que estejam de acordo com as expectativas.
-- **Autenticação Correta**: A autenticação é validada para garantir que apenas usuários autorizados possam acessar os recursos protegidos pela API.
-- **Validação de Entradas**: As entradas fornecidas aos endpoints da API são validadas para garantir que estejam corretas e consistentes.
-- **Detecção de Erros**: Testes específicos foram desenvolvidos para detectar e lidar com possíveis erros que possam ocorrer durante as interações com a API.
+- **Operações CRUD**: Foram testadas as operações CRUD para garantir que os endpoints correspondentes estejam funcionando corretamente.
+- **Verificação de códigos de status**: Os testes incluem verificações dos códigos de status das respostas para garantir que estejam de acordo com as expectativas da documentação .
+- **Autenticação correta**: A autenticação é validada para garantir que apenas usuários autorizados possam acessar os recursos protegidos pela API.
+- **Validação de entradas**: As entradas fornecidas aos endpoints da API são validadas para garantir que estejam corretas e consistentes.
+- **Detecção de erros**: Testes específicos foram desenvolvidos para detectar e lidar com possíveis erros que possam ocorrer durante as interações com a API.
 
 ### Resultados
 
-Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros críticos que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
+Os testes automatizados confirmaram a conformidade da API com as expectativas, assegurando a integridade e segurança das operações realizadas. Entretanto, foram identificados dois erros que necessitam de atenção especial, ambos relacionados ao endpoint "Get all products - result = 0":
 
 - erro 01 :
 
